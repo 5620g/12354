@@ -252,7 +252,7 @@ function create_config( )
     "left",
     "support",
     },
-    sudo_users = {139534999},--Sudo users
+    sudo_users = {175114553},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
@@ -475,15 +475,8 @@ This command will send text to [group_id]
 you can use both "/" and "!" 
 شما میتوانید از ! و / استفاده کنید
 
-Developer: @RM13790115
-توسعه دهنده
-اگه هم ریپورتی از طریق بات بچت
-@RM13790115bot
 
-channel: @AVENGERRSS
-کانال ما
 
-G00D LUCK ^_^
 ]]
   }
   serialize_to_file(config, './data/config.lua')
